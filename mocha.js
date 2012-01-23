@@ -70,7 +70,7 @@ exports.EventEmitter = EventEmitter;
  */
 
 function isArray(obj) {
-  return '[object Array]' == {}.toString.call(obj);
+  return '[object Array]' == ({}).toString.call(obj);
 }
 
 /**
